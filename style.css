@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://img.freepik.com/premium-photo/pattern-hamburgers-fries-with-words-fast-food-it_900958-8898.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+   
+  }
+
+  .title-card {
+    text-align: center;
+    background-color: #0a5461de;
+    color: #fff;
+    padding: 15px;
+    font-family:serif;
+  }
+  
+  #title {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+
+  .cover {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #343838d7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    
+    
+  }
+  
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .form-group{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    column-gap: 30px;
+    row-gap: 10px;
+   
+}   
+#labelGenderl{
+    grid-column: span 2;
+}
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea,
+  select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+
+  #food-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #food-checkboxes label {
+    margin-right: 15px;
+  }
+  
+ 
+  button {
+    padding: 10px;
+    background-color: #0f495a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 350px;
+  }
+  
+  button:hover {
+    background-color: #0b7a9c;
+  }
+  
+
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #0b4e5a;
+    color: #fff;
+  }
+  
+  
+  @media (max-width: 600px) {
+    form {
+      margin: 0;
+    }
+  }
